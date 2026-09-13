@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="login-header">
+    <div class="wrap">
+        <a class="logo" href="#">
+            <span class="brand-name">PalGO</span>
+            <span class="brand-sub">Palawan Logistics System</span>
+        </a>
+
+        <nav class="login-nav">
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="">Roles</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+
+        </nav>
+    </div>
+</header>
+
+<section class="signup-form">
+    <div class="signup-box">
+        <form class="signup-form">
+            <h2>Create an account</h2>
+            <p>Fill in your details to get started</p>
+
+            <div id="name-field" class="form">
+                <label>Full Name</label> <br>
+                <input type="text" placeholder="Enter your full name" required>
+            </div>
+            <div id="username" class="form-field">
+                <label>Username</label> <br>
+                <input type="text" placeholder="Choose a username" required>
+            </div>
+
+            <div id="email-field" class="form-field">
+                <label>Email</label> <br>
+                <input type="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div id="password-field" class="form-field">
+                <label>Password</label> <br>
+                <input type="password" placeholder="Create a password" required>
+            </div>
+
+            <div id="confirm-password" class="form-field">
+                <label>Confirm Password</label> <br>
+                <input type="password" placeholder="Re-enter password" required>
+            </div>
+
+            <div id="user-roles" class="form-field">
+                <label>Role</label> <br>
+                <select name="role" id="select-role" required>
+                    <option value="">Select your role</option>
+                    <option value="Farmer">Farmers</option>
+                    <option value="logistics-coordinators">Logistics Coordinators</option>
+                    <option value="receiving-officer">Receiving Officer</option>
+                </select>
+            </div>
+
+            <div id="municipal" class="form-field">
+                <label>Municipalities</label> <br>
+                <select name="municipalities" class="form-field" required>
+                    
+                    <option value="">Select your municipality</option>
+                    <optgroup label="Mainland - Road">
+                        
+                        <option value="aborlan">Aborlan</option>
+                        <option value="narra">Narra</option>
+                        <option value="quezon">Quezon</option>
+                        <option value="sofronio-espanola">Sofronio Española</option>
+                        <option value="brookes-point">Brooke's Point</option>
+                        <option value="rizal">Rizal</option>
+                        <option value="bataraza">Bataraza</option>
+                        <option value="roxas">Roxas</option>
+                        <option value="san-vicente">San Vicente</option>
+                        <option value="magsaysay">Magsaysay</option>
+                        <option value="taytay">Taytay</option>
+                    </optgroup>
+
+                    <optgroup label="Island - Boat">
+                        <option value="dumaran">Dumaran</option>
+                        <option value="araceli">Araceli</option>
+                        <option value="balabac">Balabac</option>
+                        <option value="culion">Culion</option>
+                        <option value="linapacan">Linapacan</option>
+                        <option value="cuyo">Cuyo</option>
+                        <option value="coron">Coron</option>
+                        <option value="agutaya">Agutaya</option>
+                        <option value="busuanga">Busuanga</option>
+                        <option value="el-nido">El Nido</option>
+                        <option value="cagayancillo">Cagayancillo</option>
+                        <option value="kalayaan">Kalayaan</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div id="terms" class="form-field">
+                <label><input type="checkbox" name="terms" required>I agree to the Terms and Conditions</label>
+            </div>
+
+            <button type="submit" name="submit-btn">Sign Up</button>
+        </form>
+
+        <div>
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="wrap">
+        <p>Provincial logistics system for Palawenos</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
