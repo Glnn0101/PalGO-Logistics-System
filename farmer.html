@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PalGO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="farmer-header">
+    <div class="wrap">
+        <span class="brand-name">PalGO</span>
+        <span class="brand-sub">Plawan Logistics Sysstem</span>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="" aria-current="page">Dashboard</a></li>
+            <li><a href="">Request Shipment</a></li>
+        </ul>
+        <a href="">Logout</a>        
+    </nav>
+</header>
+
+<main class="welcome-section">
+    <div class="wrap">
+        <h1>Welcome, Glenn</h1>
+        <h3>Farmer | Aborlan, Palawan</h3>
+        <p>Here's the current status of your agricultural shipments.</p>
+    </div>
+</main>
+
+<section class="stats">
+    <div class="wrap">  
+        <dl>
+            <dt>Active Shipments</dt>
+            <dd>4</dd>
+
+            <dt>Pending</dt>
+            <dd>3</dd>
+
+            <dt>In transit</dt>
+            <dd>1</dd>
+
+            <dt>Delivered</dt>
+            <dd>18</dd>
+        </dl>
+    </div>    
+</section>
+
+
+<section class="current-shipment">
+    <div class="wrap">
+        <h2>Current Shipment</h2>
+
+        <div>
+            <span class="current-id">PG1023</span>
+            <span class="current-product">RIce</span>
+            <span class="current-status">In Transit</span>
+        </div>
+
+        <dl>
+            <dt>Quantity</dt>
+            <dd>5okg</dd>
+
+            <dt>Pickup Location</dt>
+            <dd>Aborlan, Palawan</dd>
+
+            <dt>Destination</dt>
+            <dd>Puerto Princesa CIty</dd>
+
+            <dt>Transport Mode</dt>
+            <dd>ROad</dd>
+        </dl>
+    </div>
+</section>
+
+<section class="recent-shipment">
+    <div class="wrap">
+        <h2>Recent SHipment</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col">Shipment ID</th>
+                    <th scope="col">Product</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Destination</th>
+                    <th scope="col">Transport</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date Requested</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>PG1023</td>
+                    <td>Rice</td>   
+                    <td>50kg</td>
+                    <td>Puerto Princesa City</td>
+                    <td>Road</td>
+                    <td>In Transit</td>
+                    <td>Sep 15, 2026</td>
+                </tr>
+
+                <tr>
+                    <td>PG1024</td>
+                    <td>Cabbage</td>   
+                    <td>20 sacks</td>
+                    <td>Narray</td>
+                    <td>Road</td>
+                    <td>Delivered</td>
+                    <td>Sep 14, 2026</td>
+                </tr>
+
+                <tr>
+                    <td>PG1025</td>
+                    <td>Coconut</td>   
+                    <td>35 sack</td>
+                    <td>Coron</td>
+                    <td>Boat</td>
+                    <td>Pending</td>
+                    <td>Sep 13, 2026</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="create-shipment">
+    <div class="wrap">
+        <h2>Create Shipment Request</h2>
+        <p>Submit a new request and let the logistcs team handl eth erest.</p>
+        <button class="req-btn">New request</button>
+    </div>
+</section>
+    
+</body>
+</html>
